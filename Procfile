@@ -1,1 +1,1 @@
-web: chmod +x setup.sh && ./setup.sh 2>&1 | tee setup.log && streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --logger.level=debug --server.maxUploadSize=200
+web: python check_model_files.py && streamlit run app.py --server.port $PORT --server.address 0.0.0.0
