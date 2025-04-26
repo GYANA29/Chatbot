@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up"],
+      "responses": ["Hello! How can I help you with your shopping today?", "Hi there! What are you looking for?", "Welcome! How may I assist you with your shopping needs?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Thanks, bye", "That's all"],
+      "responses": ["Goodbye! Have a great day!", "See you soon! Happy shopping!", "Thank you for visiting! Come back soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "That's helpful"],
+      "responses": ["You're welcome!", "Glad I could help!", "Happy to assist you!"]
+    },
+    {
+      "tag": "electronics",
+      "patterns": ["Show me electronics", "I want a phone", "Looking for a laptop", "Need a tablet", "Smartphone recommendations"],
+      "responses": [
+        "Here are our top electronics recommendations:\n1. iPhone 15 Pro - $999\n2. Samsung Galaxy S24 - $799\n3. MacBook Pro M3 - $1299\n4. iPad Pro - $799\nAll items are in stock!",
+        "Check out our latest electronics collection:\n- Latest smartphones from $699\n- Premium laptops from $999\n- Tablets from $399\nWould you like to know more about any specific product?"
+      ]
+    },
+    {
+      "tag": "clothing",
+      "patterns": ["Show me clothes", "I need a dress", "Any t-shirts available?", "Looking for jeans", "Need formal wear"],
+      "responses": [
+        "Our clothing collection includes:\n- Casual wear from $29.99\n- Formal wear from $79.99\n- Dresses from $49.99\n- Jeans from $39.99\nAll items are available in various sizes!",
+        "Here are our latest fashion items:\n1. Summer Collection Dresses - $49.99-$99.99\n2. Premium Denim Jeans - $39.99-$79.99\n3. Formal Suits - $129.99-$299.99\nWould you like to see more details?"
+      ]
+    },
+    {
+      "tag": "home_appliances",
+      "patterns": ["Show me home appliances", "Need a washing machine", "Looking for a refrigerator", "Kitchen appliances"],
+      "responses": [
+        "Our home appliances range includes:\n- Washing Machines: $399-$999\n- Refrigerators: $599-$1499\n- Microwave Ovens: $99-$299\n- Air Conditioners: $299-$999\nAll items come with 1-year warranty!",
+        "Check out our premium home appliances:\n1. Smart Refrigerator - $1299\n2. Front Load Washing Machine - $799\n3. Smart Air Fryer - $199\nWould you like to know more about any specific appliance?"
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["Show me sports equipment", "Need gym equipment", "Looking for sports gear", "Fitness items"],
+      "responses": [
+        "Our sports collection includes:\n- Gym Equipment from $199\n- Sports Gear from $49.99\n- Fitness Accessories from $19.99\n- Team Sports Equipment from $29.99\nAll items are in stock!",
+        "Here are our top sports items:\n1. Premium Treadmill - $999\n2. Complete Gym Set - $499\n3. Professional Football - $49.99\nWould you like to see more options?"
+      ]
+    },
+    {
+      "tag": "price_range",
+      "patterns": ["What's the price range", "How much does it cost", "What's the price", "Show me prices"],
+      "responses": [
+        "Our price ranges are:\n- Electronics: $299-$1999\n- Clothing: $19.99-$299.99\n- Home Appliances: $99-$1499\n- Sports Equipment: $19.99-$999\nWould you like to know more about specific items?",
+        "Here are our price categories:\n1. Budget Range: $19.99-$99.99\n2. Mid-Range: $100-$499\n3. Premium Range: $500-$1999\nWhat price range interests you?"
+      ]
+    },
+    {
+      "tag": "availability",
+      "patterns": ["Is it in stock", "Is it available", "Do you have it", "Can I buy it now"],
+      "responses": [
+        "Most of our items are in stock and ready for immediate delivery! Would you like to check availability for a specific product?",
+        "We maintain good stock levels across all categories. Let me know which product you're interested in, and I'll check its availability for you."
+      ]
+    },
+    {
+      "tag": "recommendations",
+      "patterns": ["What do you recommend", "Suggest something", "What's popular", "Show me best sellers"],
+      "responses": [
+        "Here are our current best sellers:\n1. iPhone 15 Pro - $999\n2. Premium Denim Jeans - $79.99\n3. Smart Air Fryer - $199\n4. Professional Gym Set - $499\nWould you like details about any of these?",
+        "Based on customer reviews, our top recommendations are:\n- Electronics: MacBook Pro M3\n- Clothing: Summer Collection Dresses\n- Home: Smart Refrigerator\n- Sports: Premium Treadmill\nWould you like to know more?"
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": ["Any discounts", "Show me offers", "Special deals", "Promotions"],
+      "responses": [
+        "Current promotions:\n- 20% off on all electronics\n- Buy 2 get 1 free on selected clothing\n- 15% off on home appliances\n- Free shipping on orders above $99\nWould you like to know more about any offer?",
+        "Here are our special deals:\n1. Weekend Special: 25% off on all items\n2. Student Discount: 15% off with valid ID\n3. First Purchase: 10% off for new customers\nWould you like to know more?"
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["Payment options", "How to pay", "Payment methods", "Accepted cards"],
+      "responses": [
+        "We accept:\n- Credit/Debit Cards (Visa, MasterCard, Amex)\n- PayPal\n- Apple Pay\n- Google Pay\n- Bank Transfer\nAll transactions are secure!",
+        "Payment options available:\n1. Online Payment (Cards, Digital Wallets)\n2. Cash on Delivery\n3. Installment Plans (0% interest)\nWould you like to know more about any payment method?"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["Delivery time", "Shipping options", "When will it arrive", "Delivery charges"],
+      "responses": [
+        "Delivery options:\n- Standard Delivery: 3-5 business days (Free)\n- Express Delivery: 1-2 business days ($9.99)\n- Same Day Delivery: Within 24 hours ($19.99)\nAll orders above $99 get free shipping!",
+        "Our delivery services include:\n1. Free shipping on orders above $99\n2. Express delivery available\n3. Real-time tracking\n4. Safe contactless delivery\nWould you like to know more?"
+      ]
+    }
+  ]
+}
