@@ -1,1 +1,1 @@
-web: streamlit run app.py --server.port $PORT 
+web: chmod +x setup.sh && ./setup.sh 2>&1 | tee setup.log && streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --logger.level=debug --server.maxUploadSize=200
